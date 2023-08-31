@@ -1,0 +1,32 @@
+* {   
+}
+
+html {
+    font-family: Roboto, Helvetica, sans-serif;
+    
+}
+
+header,
+footer {
+    background-color: #1F2937;
+}
+
+header,
+a,
+footer {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.link
