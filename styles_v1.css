@@ -1,0 +1,155 @@
+html {
+    font-family: Roboto, Helvetica, sans-serif;  
+}
+
+header,
+footer {
+    background-color: #1F2937;
+}
+
+header,
+a,
+footer,
+.action {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+header h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.logolink-container {
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px; 
+    gap: 10px;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+.text-image-container {
+    display: flex;
+    flex: auto;
+    padding: 100px;
+}
+
+
+.text {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    flex: auto;
+    flex-wrap: wrap;
+    padding-right: 100px;
+}
+
+
+
+.placeholder {
+    background-color: bisque;
+    min-width: 500px;
+    height: auto;
+   
+}
+
+button {
+    max-width: 100px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 3px;
+    border-color: #E5E7EB;
+    border-style: solid;
+}
+
+.information h1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+.graph-container,
+.subtext-container {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.subtext {
+    width: 150px;
+    margin: 10px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.graph {
+    min-width: 150px;
+    min-height: 150px;
+    margin: 10px;
+    font-weight: lighter;
+    border: 1px solid;
+    border-radius: 5px; 
+}
+
+.quote-container {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    justify-content: center;
+    display:flex; 
+    flex-direction: column;
+    background-color: #E5E7EB;
+    /* width: 800px; */
+    margin-left:auto;
+    margin-right: auto;
+    padding: 100px;
+    padding-left:500px;
+    padding-right:500px;
+}
+
+.quote-origin {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.action-container {
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.action {
+    background-color: #3882F6;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 40px;    
+}
+
+.action button {
+    margin-left: 200px;
+
+}
+
+
+.call {
+    font-weight: bolder;
+}
